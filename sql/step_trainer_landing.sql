@@ -12,5 +12,5 @@ WITH SERDEPROPERTIES (
 )
 STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
-LOCATION 's3://YOUR-BUCKET-NAME/step_trainer/landing/'
+LOCATION 's3://stedi-lakehouse-13055707/step_trainer/landing/'
 TBLPROPERTIES ('classification' = 'json');
